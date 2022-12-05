@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailStoryActivity">
+
+
+    <ImageView
+        android:id="@+id/img_receive"
+        android:layout_width="377dp"
+        android:layout_height="243dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_gallery"
+        android:contentDescription="@string/imagereceive"/>
+
+    <TextView
+        android:id="@+id/txt_nama"
+        style="@style/TextContext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/txt_nama"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_receive" />
+
+    <TextView
+        android:id="@+id/txt_user"
+        style="@style/SubTextContext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_nama"
+        app:layout_constraintTop_toBottomOf="@+id/txt_nama"
+        tools:text="Lorem Ipsum" />
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/description"
+        style="@style/TextContext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.003"
+        app:layout_constraintStart_toStartOf="@+id/txt_user"
+        app:layout_constraintTop_toBottomOf="@+id/txt_user" />
+
+    <TextView
+        android:id="@+id/txt_description"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        style="@style/SubTextContext"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_description"
+        app:layout_constraintTop_toBottomOf="@+id/tv_description"
+        app:layout_constraintVertical_bias="0.003"
+        tools:text="Lorem Ipsum" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">AplikasiStoryApp</string>
+    <string name="img_item">ImageItem</string>
+    <string name="add_story">AddStory</string>
+    <string name="image_story">Image Story</string>
+    <string name="txt_nama">Nama</string>
+    <string name="edt_nama">Masukkan nama anda</string>
+    <string name="txt_email">Email</string>
+    <string name="edt_email">Masukkan email anda</string>
+    <string name="edt_password">Masukkan password anda</string>
+    <string name="txt_password">Password</string>
+    <string name="success">Upload Success</string>
+    <string name="txt_tambah">Add Story</string>
+    <string name="kamera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="desc">Description...</string>
+    <string name="unggah">Upload</string>
+    <string name="imagereceive">ImageReceive</string>
+    <string name="description">Description</string>
+    <string name="login">LOGIN</string>
+    <string name="konfirmasi">Belum punya akun ?</string>
+    <string name="register">Register</string>
+    <string name="logo">ImageLogo</string>
+    <string name="register_capslock">REGISTER</string>
+    <string name="konfirmasi_lainnya">Sudah punya akun ?</string>
+    <string name="login_kecil">Login</string>
+    <string name="welcome">WELCOME TO MY APPLICATION</string>
+    <string name="username">Username</string>
+    <string name="logout">Logout</string>
+    <string name="timeout">Timeout</string>
+    <string name="retry">Retry</string>
+</resources>
